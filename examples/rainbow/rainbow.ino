@@ -1,39 +1,33 @@
 #include <FastLED.h>
 
-#define LED_PIN     D4         // Data pin
-#define NUM_LEDS    64        // 8x8 Panel
-#define BRIGHTNESS  100
-#define LED_TYPE    WS2812B
-#define COLOR_ORDER GRB
+#define LED_PIN     D4        // Pin für die Lichter
+#define ANZAHL_LEDS 64        // 8x8 = 64 Lichter
+#define HELLE       100       // Helligkeit
 
-CRGB leds[NUM_LEDS];
+CRGB lichter[ANZAHL_LEDS];
 
 void setup() {
-  FastLED.addLeds<LED_TYPE, LED_PIN, COLOR_ORDER>(leds, NUM_LEDS).setCorrection(TypicalLEDStrip);
-  FastLED.setBrightness(BRIGHTNESS);
+  FastLED.addLeds<WS2812B, LED_PIN, GRB>(lichter, ANZAHL_LEDS);
+  FastLED.setBrightness(HELLE); // Helligkeit einstellen
 }
 
 void loop() {
-    static uint8_t offset = 0;
-  
-    for (int y = 0; y < 8; y++) {
-      for (int x = 0; x < 8; x++) {
-        int index = getLedIndex(x, y);
-        leds[index] = CHSV((x * 10 + offset) % 255, 255, 255);
-      }
-    }
-  
-    FastLED.show();
-    offset++;
-    delay(50);
-  }
-  
-bool serpentine = false; // false = progressive layout
+  static uint8_t farbVerschiebung = 0; // Farbe wandert mit der Zeit
 
-int getLedIndex(int x, int y) {
-  if (serpentine && (y % 2 == 1)) {
-    return y * 8 + (7 - x);
-  } else {
-    return y * 8 + x;
+  // Wir gehen durch jede Zeile (y) und Spalte (x)
+  for (int y = 0; y < 8; y++) {
+    for (int x = 0; x < 8; x++) {
+      int nummer = ledNummer(x, y); // Die richtige LED-Nummer finden
+      lichter[nummer] = CHSV((x * 10 + farbVerschiebung) % 255, 255, 255); // Bunte Farben
+    }
   }
+
+  FastLED.show();    // Lichter anzeigen
+  farbVerschiebung++; // Farbe ändern
+  delay(50);         // Kleine Pause
+}
+
+// Die Lichter sind von links nach rechts sortiert
+int ledNummer(int x, int y) {
+  return y * 8 + x;
 }
