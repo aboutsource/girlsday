@@ -47,5 +47,12 @@ jeweils suchen und installieren
 
 ## Beispiele herunterladen
 
+Oben auf den grünen Button `Code` und dann auf `Download ZIP` klicken
+
+![screenshot_beispiele_herunterladen](images/screenshot_beispiele_herunterladen.png "Beispiele an der rot umrandeten Stelle herunterladen")
+
+Den ZIP-Ordner könnt ihr auf eurem Computer vom Ordner `Downloads` in den Ordner `Arduino` verschieben und dort entpacken (rechte Maustaste und `enpacken` auswählen)
+
+
 
 
