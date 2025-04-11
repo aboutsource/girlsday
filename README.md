@@ -7,7 +7,7 @@
 ## LED Panel anschließen
 
 Das USB-Kabel am Mikrocontroller, der am LED Panel hängt, einstecken und die andere Seite am Computer anschließen.
-Da der Controller jetzt Strom bekommt, müsste das zuletzt draufgeladene Programm starten, die LEDs also leuchten.
+Da jetzt Strom fließt, müsste das zuletzt draufgeladene Programm starten, die LEDs also leuchten.
 
 ## Mikrocontroller hinzufügen
 
@@ -50,7 +50,7 @@ jeweils suchen und installieren
 
 # GirlsDay Projekte und Beispiele
 
-hier findet ihr alle Projekte, die ihr während des GirlsDays entwickelt habt, die Bespiele, die wir euch gezeigt haben, sowie ein paar weitere Beispiele.
+hier findet ihr alle Programme, die ihr während des GirlsDays entwickelt habt, die Bespiele, die wir euch gezeigt haben, sowie ein paar weitere Beispiele.
 
 ## herunterladen
 
@@ -62,9 +62,9 @@ Den ZIP-Ordner könnt ihr auf eurem Computer vom Ordner `Downloads` in den Ordne
 
 ## Sketch öffnen
 
-Ein Sketch ist die Datei mit dem Code, der auf den Mikrocontroller hochgeladen werden kann.
+Ein Sketch ist die Datei mit dem Programm, das auf den Mikrocontroller geladen werden kann.
 
-Ihr könnt einen Sketch, also eines der Projekte, über das Sketchbook im linken Menü öffnen, indem ihr dort auf die drei Punkte neben dem Projekt klickt.
+Ihr könnt ein Sketch über das Sketchbook im linken Menü öffnen, indem ihr dort auf die drei Punkte neben dem Namen klickt.
 
 ![screenshot_sketch_in_sketchbook](images/screenshot_sketch_in_sketchbook.png "Bei dem Beispiel auf die drei Punkte klicken")
 
