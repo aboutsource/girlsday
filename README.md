@@ -72,7 +72,7 @@ Dort dann `Sketch in neuem Fenster öffnen` auswählen
 
 ![screenshot_sketch_oeffnen_sketchbook](images/screenshot_sketch_oeffnen_sketchbook.png "Sketch in neuem Fenster öffnen auswählen")
 
-Sollte es das Sketchbook in diesem Menü noch nicht geben, könnt ihr es über das Datei-Menü suchen.
+Sollte es das Sketchbook in diesem Menü noch nicht geben, könnt ihr es über das Datei-Menü suchen.  
 Dafür oben links auf `Datei` klicken, dann auf `Öffnen...` und in den Ordnern auf dem Computer den richtigen suchen und die Datei öffnen.
 
 ![screenshot_sketch_oeffnen_im_datei-menue](images/screenshot_sketch_oeffnen_menu.png "Auf Öffnen... klicken und die Datei suchen")
@@ -82,3 +82,16 @@ Dafür oben links auf `Datei` klicken, dann auf `Öffnen...` und in den Ordnern 
 Oben links af den Pfeil klicken, dann wird der Code auf den Mikrocontroller übertragen und das Programm aus dem Sketch sollte laufen.
 
 ![screenshot_sketch_auf_mikrocontroller_laden](images/screenshot_sketch_hochladen.png "Auf den Pfeil klicken")
+
+# Links
+
+Falls ihr weiter Interesse am Programmieren habt, könnt ihr euch mal die folgenden Angebote ansehen (externe Links):
+
+[Programmieren mit der Maus](https://programmieren.wdrmaus.de/)  
+Hier gibt es Lernspiele mit der Maus, um Programmieren in der Programmiersprache Scratch zu lernen. Scratch eigenet sich gut für Anfänger:innen, da dort mit Blöcken gearbeitet wird, statt alles selbst schreiben zu müssen.
+
+[YouCodeGirls](https://youcodegirls.de/portal/)  
+Hier gibt es viele Tutorials und Kurse (online) für verschiedene Altersstufen mit und ohne Vorkenntnisse
+
+[von Hacker\*in zu Hacker\*in](https://eigenbaukombinat.de/vhzh25-termine/)  
+Beim Eigenbaukombinat in Halle gibt es momentan eine tolle Workshop-Reihe, die sich an Mädchen und Queers vom 10 bis 18 Jahren richtet. Das Eigenbaukombinat befindet sich in der Nähe des Bahnhofs in Halle und ist somit von Leipzig gut zu erreichen. Dort findet auch einmal im Monat der [Junghackertag](https://junghacker.de/) (für alle Geschlechter) statt
